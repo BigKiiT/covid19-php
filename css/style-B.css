@@ -1,0 +1,84 @@
+/* 
+        1. nav
+        2. main
+        3. footer
+*/
+
+html {
+  min-height: 100%;
+  margin: 0;
+}
+body {
+  font-family: "Mitr", sans-serif;
+  background: rgb(4, 0, 68);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(4, 0, 68, 1) 0%,
+    rgba(25, 9, 121, 1) 54%,
+    rgba(25, 1, 161, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(4, 0, 68, 1) 0%,
+    rgba(25, 9, 121, 1) 54%,
+    rgba(25, 1, 161, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(4, 0, 68, 1) 0%,
+    rgba(25, 9, 121, 1) 54%,
+    rgba(25, 1, 161, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#040044",endColorstr="#1901a1",GradientType=1);
+  min-height: 100%;
+  color: white;
+}
+/* 1. nav */
+.logo-size{
+    width: 400px;
+}
+
+
+/* 2. main */
+.bg-alp {
+  background-color: rgba(36, 23, 23, 0.3);
+}
+.size-img {
+  width: 130px;
+  height: 130px;
+  margin: 10px auto;
+  display: block;
+  /* img-fluid d-block mx-auto (img center)*/
+}
+.font-header {
+  font-size: 20px;
+  font-weight: 500;
+}
+.font-sub-hea {
+  font-size: 15px;
+  font-weight: 300;
+}
+.font-30 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.txt-ind {
+  text-indent: 22px;
+}
+
+
+/* 3. footer */
+footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+}
+@media (min-width: 992px) {
+  footer {
+    position: fixed;
+    bottom: 0px;
+  }
+} 
