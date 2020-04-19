@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-9">
               <div class="card-body">
-                <h6 class="card-title text-center font-header">อัพเดทข้อมูลประจำ</br><?= DateThai($strDate); ?>น.</h5>
+                <h6 class="card-title text-center font-header">อัพเดทข้อมูลประจำ</br><?= $int_UpdateDate; ?>น.</h5>
                   <p class="card-text txt-ind font-sub-hea">จำนวนผู้ติดเชื้อเพิ่ม <?= $int_NewConfirmed; ?> ราย จำนวนผู้ป่วยที่รักษาหายเพิ่ม <?= $int_NewRecovered; ?> ราย และจำนวนผู้เสียชีวิตเพิ่ม <?= $int_NewDeaths; ?> ราย</p>
               </div>
             </div>
